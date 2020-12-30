@@ -21,7 +21,7 @@ function draw(){
 image(img_animal, 0, 0, 500, 600);
 if(status!=""){
     for(i=0; i< object.length; i++){
-        document.getElementById("Status").innerHTML=" Object detected";
+        document.getElementById("status").innerHTML=" Object detected";
         
         fill("blue");
         percent= floor(object[i].confidence*100);
