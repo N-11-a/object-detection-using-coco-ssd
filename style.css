@@ -1,0 +1,28 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+.bg{
+    background-position : center;
+    background-size: cover;
+    
+}
+
+.header{
+    width: 100%;
+    margin-top: 0px;
+}
+
+canvas{
+    border: 20px dashed blueviolet;
+    
+}
+
