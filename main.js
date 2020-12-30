@@ -37,10 +37,13 @@ function modelloaded(){
     objectdetector.detect(img_animal, gotresult);
 }
 
-function gotresult(error, result){}
+function gotresult(error, result){
     if(error){
         console.log(error);
     }
 else{
     console.log(result);
 }
+
+}
+    
